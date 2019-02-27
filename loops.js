@@ -1,0 +1,18 @@
+function forLoop(arrayOne) {
+  for (var i = 0; i < 25; i++) { 
+    if (i === 1) {
+      arrayOne.push(`I am ${i} strange loop.`);
+      } else { arrayOne.push(`I am ${i} strange loops.`);
+}
+}
+return arrayOne;
+}
+let number = 50;
+function whileLoop(number) {
+  while (number > 0) {
+    console.log(--number);
+  }
+return "done";
+}
+
+

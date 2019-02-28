@@ -18,7 +18,7 @@ return "done";
 
 var num = 0;
 function incrementVariable() {
-  num = num + 1;
+  num = num + 10;
   return num;
 }
 

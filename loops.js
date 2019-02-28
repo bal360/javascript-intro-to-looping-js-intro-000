@@ -7,6 +7,7 @@ function forLoop(arrayOne) {
 }
 return arrayOne;
 }
+
 let number = 50;
 function whileLoop(number) {
   while (number > 0) {
@@ -14,5 +15,19 @@ function whileLoop(number) {
   }
 return "done";
 }
+
+var num = 0;
+function incrementVariable() {
+  num = num + 1;
+  return num;
+}
+
+function doWhileLoop(num) {
+  do {
+    console.log("I run once regardless.");
+  } while (incrementVariable() < num);
+}
+
+    
 
 

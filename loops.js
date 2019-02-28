@@ -16,17 +16,17 @@ function whileLoop(number) {
 return "done";
 }
 
-var num = 0;
+function doWhileLoop(num) {
+  var num = 0;
 function incrementVariable() {
   num = num + 1;
   return num;
 }
-
-function doWhileLoop(n) {
   do {
     console.log("I run once regardless.");
   } while (incrementVariable() < 10);
 }
+
 
     
 
